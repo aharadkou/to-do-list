@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Context path="/webProject">
+ <Resource
+	name="jdbc/tododb"
+	type="javax.sql.DataSource"
+	maxTotal="64"
+	maxWaitMillis="10000"
+	username="jse"
+	password="jse"
+	driverClassName="com.mysql.cj.jdbc.Driver"
+	url="jdbc:mysql://localhost/tododb?serverTimezone=Europe/Minsk"
+ />
+</Context>
